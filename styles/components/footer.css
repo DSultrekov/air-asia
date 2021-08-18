@@ -1,6 +1,11 @@
+.footer-container__content {
+  border-top: 1px solid #FFFFFF;
+}
+
 .footer {
   height: 165px;
   position: relative;
+  margin-top: 18px;
 }
 
 .contacts__desc {
@@ -11,20 +16,16 @@
 .socials__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
 .socials {
-  top: 68px;
-  right: 300px;
+  position: absolute;
+  top: 32px;
+  right: 274px;
 }
 
-.socials-list {
-  top: 53px;
-  right: 300px;
-}
-
-.socials_item:last-child {
+.socials__item:last-child {
   margin-right: 0;
 }
 
@@ -33,36 +34,33 @@
   text-decoration: none;
   width: 36px;
   height: 36px;
+  background: center center no-repeat;
 }
 
-.socials__item--icon--telegram .socials__link{
-  background-image: url(../../img/t.png);
+.socials__item--icon--telegram .socials__link {
+  background-image: url("../../img/t.png");
 }
-
 .socials__item--icon--telegram .socials__link:hover {
-  background-image: url(../../img/tlight.png);
+  background-image: url("../../img/tlight.png");
 }
 
-.socials__item--icon--vk .socials__link{
-  background-image: url(../../img/vk.png);
+.socials__item--icon--vk .socials__link {
+  background-image: url("../../img/vk.png");
+}
+.socials__item--icon--vk .socials__link:hover {
+  background-image: url("../../img/vklight.png");
 }
 
-.socials__item--ico--telegram .socials__link:hover {
-  background-image: url(../../img/vklight.png);
+.socials__item--icon--fb .socials__link {
+  background-image: url("../../img/f.png");
 }
-
-.socials__item--icon--fb .socials__link{
-  background-image: url(../../img/f.png);
-}
-
 .socials__item--icon--fb .socials__link:hover {
-  background-image: url(../../img/flight.png);
+  background-image: url("../../img/flight.png");
 }
 
-.socials__item--icon--insta .socials__link{
-  background-image: url(../../img/in.png);
+.socials__item--icon--insta .socials__link {
+  background-image: url("../../img/in.png");
 }
-
 .socials__item--icon--insta .socials__link:hover {
-  background-image: url(../../img/inlight.png);
+  background-image: url("../../img/inlight.png");
 }

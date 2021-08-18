@@ -48,7 +48,7 @@ img {
 }
 
 .wrapper_main {
-  background: url('../../img/hero-top.png') no-repeat top center, url(../../img/hero-bot.png) no-repeat bottom center;
+  background: url('../../img/hero-top.png') center top no-repeat, url(../../img/hero-bot.png) right bottom 165px no-repeat;
   background-color: #001821;
 }
 .section-title{
