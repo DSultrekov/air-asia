@@ -1,0 +1,63 @@
+.footer {
+  height: 165px;
+  position: relative;
+}
+
+.contacts__desc {
+  color: #9a9a9a;
+  font-size: 11px;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.socials-list {
+  top: 53px;
+  right: 300px;
+}
+
+.socials_item:last-child {
+  margin-right: 0;
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  widows: 36px;
+  height: 36px;
+}
+
+.socials__item--icon--telegram .socials__link{
+  background-image: url(../../img/t.png);
+}
+
+.socials__item--icon--telegram .socials__link:hover {
+  background-image: url(../../img/tlight.png);
+}
+
+.socials__item--icon--vk .socials__link{
+  background-image: url(../../img/vk.png);
+}
+
+.socials__item--ico--telegram .socials__link:hover {
+  background-image: url(../../img/vklight.png);
+}
+
+.socials__item--icon--fb .socials__link{
+  background-image: url(../../img/f.png);
+}
+
+.socials__item--icon--fb .socials__link:hover {
+  background-image: url(../../img/flight.png);
+}
+
+.socials__item--icon--insta .socials__link{
+  background-image: url(../../img/in.png);
+}
+
+.socials__item--icon--insta .socials__link:hover {
+  background-image: url(../../img/inlight.png);
+}

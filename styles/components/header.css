@@ -1,0 +1,68 @@
+.header {
+  height: 120px;
+  position: relative;
+  margin-bottom: 75px;
+
+}
+.header__logo {
+  display: block;
+  position: absolute;
+  top: 29px;
+  left: 0;
+}
+
+.logo {
+  display: inline-block;
+  width: 85px;
+  height: 36px;
+}
+
+.header__nav {
+  position: absolute;
+  top: 40px;
+  left: 166px;
+}
+
+.site-address {
+  position: absolute;
+  top: 29px;
+  right: 0;
+  font-style: normal;
+  text-align: right;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.site-nav__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.site-nav__link {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-address__link {
+  text-decoration: none;
+  font-size: 26px;
+  color: #FFFFFF;
+  margin-bottom: 9px;
+}
+
+.site-address {
+  font-style: normal;
+  text-align: right;
+  right: 8px;
+}
+
+.site-address__schedule{
+  font-size: 13px;
+  color: #FFF;
+  text-decoration: underline;
+}
