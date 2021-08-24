@@ -1,22 +1,21 @@
 .pager {
-  text-align: center;
-  margin-bottom: 146px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 145px;
 }
 
 .pager__display {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 7px;
+  margin-right: 36px;
 }
 
 .pager__list {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
 
 .pager__item {
-  display: inline-block;
-  vertical-align: middle;
+  text-align:center
 }
 
 .pager__item--active .pager__link {

@@ -3,9 +3,18 @@
   margin-left: 12px;
 }
 
-.offers-list__item{
-  display: inline-block;
-  margin-right: 23px;
+.section-title{
+  color: #fff;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 55px;
+}
+
+.offers-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px;
+  
 }
 
 .offers-list__item:last-child {
@@ -13,7 +22,7 @@
 }
 
 .offer {
-  width: 362px;
+  width: calc(100% / 3 - 18px);
   background-color: #fff;
   border-radius: 5px 5px 5px 5px;
   overflow: hidden;
@@ -23,6 +32,7 @@
 .offer_pic {
   height: 144px;
 }
+
 .offer__img {
   height: 100%;
   object-fit: cover;
@@ -37,27 +47,23 @@
 }
 
 .offer__title {
+  font-weight: bold;
+  color: #000;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 23px;
 }
 
-.section-title {
-  margin-bottom: 55px;
-  margin-left: 4px;
-}
-
 .offer__feachers {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 23px;
-  margin-left: 6px;
+  padding-left: 6px;
 }
 
-.offer__feacher {
-  display: inline-block;
-  margin-right: 25px;
-}
 .offer__feacher:last-child {
   margin-right: 0;
+  padding-right: 47px;
 }
 
 .offer__feacher-img {
@@ -75,28 +81,7 @@
   font-size: 14px;
   line-height: 21px;
   color: #303030;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 }
 
-.btn {
-  border: 1px solid #F5170E;
-  border-radius: 35px;
-  padding: 18px 30px;
-  color: #F5170E;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  transition: .3s;
-  background-color: #fff;
-  cursor: pointer;
-  margin-bottom: 0;
-}
-
-.offer__button:hover {
-  box-shadow: 0 0 25px 0 rgba(245, 23, 14, 1);
-  background-color: #F5170E;
-  color: #fff;
-}
 

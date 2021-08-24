@@ -1,5 +1,6 @@
 .hero__text-section {
-  width: 520px;
+  width: 45%;
+  margin-bottom: 269px;
 }
 
 .hero__title {
@@ -7,28 +8,12 @@
   font-weight: bold;
   color: #FFF;
   line-height: 1.4;
-  margin-bottom: 24px;
+  margin-bottom: 27px;
 }
 .hero__subtitle {
   font-size: 18px;
   color: #FFF;
-  margin-bottom: 34px;
+  margin-bottom: 51px;
 }
-.offer__button {
-  border: 1px solid #F5170E;
-  background-color: #f5170e;
-  border-radius: 35px;
-  padding: 20px 40px;
-  color: #fff;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  transition: .3s;
-  cursor: pointer;
-  margin-bottom: 248px;
-}
-.offer__button:hover {
-  box-shadow: 0 0 25px 0 rgba(245, 23, 14, 1);
-}
+
+

@@ -1,16 +1,37 @@
+.footer-container {
+  margin-top: auto;
+}
+
 .footer-container__content {
   border-top: 1px solid #FFFFFF;
 }
 
-.footer {
+.footer-container__content {
   height: 165px;
+  margin-top: -14px;
+}
+
+.footer {
   position: relative;
-  margin-top: 18px;
+  display: flex ;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #001821;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right {
+  justify-content: flex-end;
 }
 
 .contacts__desc {
   color: #9a9a9a;
   font-size: 11px;
+  margin-bottom: 7px;
 }
 
 .socials__item {
@@ -20,9 +41,7 @@
 }
 
 .socials {
-  position: absolute;
-  top: 32px;
-  right: 274px;
+ margin-right: 74px;
 }
 
 .socials__item:last-child {
