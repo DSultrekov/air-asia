@@ -3,12 +3,13 @@
   margin: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-size: 16px;
 }
@@ -18,11 +19,17 @@ ul {
   margin: 0;
 }
 
-ul, li {
+ul,
+li {
   list-style-type: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   font-weight: normal;
 }
@@ -47,14 +54,18 @@ img {
   background-color: #001821;
 }
 
-.container {
-  width: 1141px;
-  margin: 0 auto;
-}
-
 .wrapper_main {
   background: url('../../img/hero-top.png') center top no-repeat, url(../../img/hero-bot.png) right bottom 165px no-repeat;
   background-color: #001821;
+}
+
+.reviews--wrapper {
+  background-color: #001821;
+}
+
+.container {
+  width: 1141px;
+  margin: 0 auto;
 }
 
 .btn {
@@ -80,4 +91,23 @@ img {
   color: #fff;
   background: #F5170E;
   padding: 18px 40px;
+}
+
+.btn--color--black {
+  background: #2B2B2B;
+  border: 1px solid #2B2B2B;
+  color: #fff;
+  padding: 18px 40px;
+}
+
+.btn--color--red {
+  background: #F5170E;
+  color: #fff;
+  padding: 18px 40px;
+}
+
+.welcome__button {
+  color: #fff;
+  background: #F5170E;
+  padding: 18px 58px;
 }

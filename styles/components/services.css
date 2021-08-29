@@ -38,6 +38,7 @@
 .breadcrumbs__item::after {
   content: "/";
   color: #999;
+  margin-right: 5px;
 }
 
 .breadcrumbs__item:last-child::after {
@@ -51,4 +52,5 @@
 .breadcrumbs__link {
   color: #9A9A9A;
   font-size: 14px;
+  margin-right: 5px;
 }
