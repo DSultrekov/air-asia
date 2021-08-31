@@ -13,9 +13,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: heartBeat 1.3s;
 }
 
 .welcome__title {
   font-size: 18px;
   margin-bottom: 50px;
 }
+

@@ -51,7 +51,7 @@
   color: #000;
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 23px;
+  margin-bottom: 32px;
 }
 
 .offer__feachers {
@@ -66,6 +66,11 @@
   padding-right: 47px;
 }
 
+.offer__feacher {
+  display: flex;
+  align-items: center;
+}
+
 .offer__feacher-img {
   width: auto;
   margin-right: 8px;
@@ -74,14 +79,13 @@
 .offer__feacher-text {
   color: #666;
   position: relative;
-  top: -6px;
   size: 16px;
 }
 .offer_description {
   font-size: 14px;
   line-height: 21px;
   color: #303030;
-  margin-bottom: 40px;
+  margin-bottom: 42px;
 }
 
 
