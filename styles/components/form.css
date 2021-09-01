@@ -12,8 +12,13 @@
   padding: 23px 30px;
   font-size: 18px;
   color: #1A1B1E;
+  border: 1px solid transparent;
+  outline: 0;
 }
 
+.form__input:focus{
+  border: 1px solid red;
+}
 
 .form__input::placeholder {
   color: #666;
